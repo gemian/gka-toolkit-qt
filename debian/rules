@@ -11,5 +11,5 @@ override_dh_auto_install:
 	dh_auto_install
 
 	# remove test code messages
-	rm -rfv debian/tmp/usr/*/locale/en_US/LC_MESSAGES/localizedApp.mo
-	rm -rfv debian/tmp/usr/*/locale/en_US/LC_MESSAGES/relativeTime.mo
+	rm -rfv debian/gka-toolkit-qt/usr/*/locale/en_US/LC_MESSAGES/localizedApp.mo
+	rm -rfv debian/gka-toolkit-qt/usr/*/locale/en_US/LC_MESSAGES/relativeTime.mo
