@@ -35,12 +35,7 @@ Architecture: any
 Multi-Arch: same
 Depends:
  ${misc:Depends},
- qml-module-qt-labs-settings,
- qml-module-qtquick-layouts,
- qml-module-qtquick-controls,
- qml-module-qtquick-controls2,
- qml-module-qtquick-templates2,
- libqt5quickcontrols2-5,
+ libglib2.0-0,
 Description: GKA Toolkit
  Bits of Ubuntu UI Toolkit used by GKA apps
  .
