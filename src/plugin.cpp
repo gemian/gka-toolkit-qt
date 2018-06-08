@@ -10,7 +10,8 @@ void UbuntuI18nPlugin::registerTypes(const char *uri)
 
     qmlRegisterType<LiveTimer>(uri, 1, 0, "LiveTimer");
 
-    qmlRegisterUncreatableType<UbuntuI18n>(uri, 1, 0, "i18n", QStringLiteral("Singleton object"));
+    // Disabled due to upstream QT change https://github.com/qt/qtdeclarative/commit/1e350a8c98d9c98823dde83a6745d2f26a9c0785
+    // qmlRegisterUncreatableType<UbuntuI18n>(uri, 1, 0, "i18n", QStringLiteral("Singleton object"));
 
 }
 
